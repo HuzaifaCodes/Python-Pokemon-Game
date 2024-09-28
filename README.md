@@ -1,12 +1,12 @@
-# Python-Pokemon-Game
+# Game Instructions
 
-Game Instructions
-Setup
-Ensure you have Python installed on your system.
-Install the required libraries by running:
-bash
-Copy code
-pip install tkinter pillow
+## Setup
+
+1. Ensure you have Python installed on your system.
+2. Install the required libraries by running:
+   ```bash
+**   pip install tkinter pillow**
+
 Character Class
 The game utilizes a Character class defined in the character.py module. This class allows customization of character attributes such as:
 
@@ -52,4 +52,3 @@ When the battle concludes (either your HP or the enemy's HP reaches 0), a win or
 
 Return to the main menu.
 Restart the game.
-Enjoy your adventure!
