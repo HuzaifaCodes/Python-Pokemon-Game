@@ -1,0 +1,41 @@
+Instructions:
+warning: The game is case senstive use words as mentioned in the prompt
+
+Run the program in a console or terminal environment.
+Instructions:
+
+Setup:
+
+Make sure you have Python installed on your system.
+Install the required libraries by running: pip install tkinter pillow
+Character Class:
+The game uses a Character class defined in the character.py module to represent player and enemy characters. You can customize character attributes such as name, hit points (HP), attack power (AP), defense power (DP), speed points (SP), and more.
+Run the Game:
+
+Open a terminal/command prompt.
+Navigate to the directory containing the game files.
+Run the	main.py script: python -u main.py
+The main menu will appear.
+Main Menu:
+
+The main menu offers several options:
+Choose Character: Click this button to select your character for the game. A new window will appear with character options. Click the "Select" button to choose a character.
+Start Game: Begin the combat game with the selected character. Combat actions include Attack, Defend, and Heal.
+Game Settings: Adjust audio settings (On/Off), select language (English, Spanish, French), and set game difficulty (1-10).
+End Game: Exit the game.
+Character Selection:
+In the character selection window, click on a character's "Select" button to choose your character for the game.
+Game Settings:
+
+In the settings window, you can:
+Toggle audio On/Off.
+Select a language from the dropdown.
+Adjust the game difficulty using the slider.
+Click the "Apply" button to save settings and close the window.
+Combat Game:
+In the combat game window, you'll see your character's and enemy's information.
+Buttons for combat actions are available: Attack, Defend, and Heal.
+Click "Attack" to attack the enemy, "Defend" to reduce incoming damage, and "Heal" to restore your character's health.
+Combat actions are turn-based; your character and the enemy take turns attacking.
+When the battle concludes (either you or the enemy's HP reaches 0), a win or lose window will appear.
+You can return to the main menu or restart the game from these windows.
