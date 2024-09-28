@@ -4,7 +4,7 @@
 
 1. Ensure you have Python installed on your system.
 2. Install the required libraries by running:
-   ```bash
+   
 **   pip install tkinter pillow**
 
 Character Class
